@@ -1,0 +1,81 @@
+/* style.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #74ebd5, #ACB6E5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    width: 300px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search input {
+    flex: 1;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+}
+
+.search button {
+    background-color: #4a90e2;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.search button img {
+    width: 20px;
+    height: 20px;
+}
+
+.weather {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.weather h1 {
+    font-size: 48px;
+    margin: 10px 0;
+}
+
+.weather .details {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+body.weather-clear {
+    background: linear-gradient(to right, #56ccf2, #2f80ed);
+}
+
+body.weather-clouds {
+    background: linear-gradient(to right, #bdc3c7, #2c3e50);
+}
+
+body.weather-rain {
+    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+}
+
+body.weather-mist {
+    background: linear-gradient(to right, #e0eafc, #cfdef3);
+}
+
+/* Add more if needed */
